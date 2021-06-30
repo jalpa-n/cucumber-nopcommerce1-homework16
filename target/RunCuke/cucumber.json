@@ -1,0 +1,1532 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3777137800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should able to register with valid inputs to all mandatory field",
+        "description": "",
+        "id": "registration-test;user-should-able-to-register-with-valid-inputs-to-all-mandatory-field",
+        "after": [
+          {
+            "result": {
+              "duration": 992543400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 203619500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1453454700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegistrationStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1151107200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter first name \"Jalpa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jalpa",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterFirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1155857600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter last name \"Ganatra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ganatra",
+                  "offset": 19
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1178859600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter email \"ptl_sweet@yahoo.co.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ptl_sweet@yahoo.co.in",
+                  "offset": 15
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1170925400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter password \"J12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J12345678",
+                  "offset": 18
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1150721300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter confirm password \"J12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J12345678",
+                  "offset": 26
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 510596300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should be able to register",
+            "match": {
+              "location": "RegistrationStepdefs.iShouldBeAbleToRegister()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20103268100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),\u0027Your registration completed\u0027)]\"}\n  (Session info: chrome\u003d91.0.4472.124)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-J6HCANK\u0027, ip: \u0027192.168.1.28\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\jalpa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58423}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ffef8c14bba8a51b8caf70eba966832e\n*** Element info: {Using\u003dxpath, value\u003d//div[contains(text(),\u0027Your registration completed\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.getText(Unknown Source)\r\n\tat com.nopcommerce.demo.pages.RegisterPage.getRegistrationCompleteText(RegisterPage.java:92)\r\n\tat com.nopcommerce.demo.cucumber.stepDefs.RegistrationStepdefs.iShouldBeAbleToSeeMessage(RegistrationStepdefs.java:75)\r\n\tat ✽.And I should be able to see \"Your registration completed\" message(src/test/java/resources/featureFile/1registration.feature:23)\r\n",
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "I should be able to see \"Your registration completed\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your registration completed",
+                  "offset": 25
+                }
+              ],
+              "location": "RegistrationStepdefs.iShouldBeAbleToSeeMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Smoke"
+          },
+          {
+            "line": 12,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2933907100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "User should not be able to register with any empty mandatory field",
+        "description": "",
+        "id": "registration-test;user-should-not-be-able-to-register-with-any-empty-mandatory-field;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 796616900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 53300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1333241300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegistrationStepdefs.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1108671300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter first name \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 20
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1120767400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter last name \"Ganatra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ganatra",
+                  "offset": 19
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1192466900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter email \"ptl_sweet@yahoo.co.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ptl_sweet@yahoo.co.in",
+                  "offset": 15
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1118327000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter password \"J12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J12345678",
+                  "offset": 18
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1106461300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter confirm password \"J12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J12345678",
+                  "offset": 26
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94601900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationStepdefs.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56322800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I should be able to see \"First name is required.\" under first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First name is required.",
+                  "offset": 25
+                }
+              ],
+              "location": "RegistrationStepdefs.iShouldBeAbleToSeeUnderFirstNameField(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@Sanity"
+          },
+          {
+            "line": 25,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Registration Test",
+    "description": "\r\nAs a user I want to register my account on nopcommerce website",
+    "id": "registration-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featureFile/1registration.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2189370300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "login-test;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 731526400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1219005200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate to login page successfully",
+            "match": {
+              "location": "LoginStepdefs.iShouldNavigateToLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55472200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to see \"Welcome, Please Sign In!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome, Please Sign In!",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepdefs.iShouldBeAbleToSee(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2925236600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should login successfully with valid credentials",
+        "description": "",
+        "id": "login-test;user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 733147300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 582827100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1141468600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter email \"ptl_sweet@yahoo.co.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ptl_sweet@yahoo.co.in",
+                  "offset": 15
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1121469000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter password \"J12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J12345678",
+                  "offset": 18
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12226691800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should login successfully",
+            "match": {
+              "location": "LoginStepdefs.iShouldLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50368900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should be able to see \"Log out\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log out",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepdefs.iShouldBeAbleToSeeOption(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Smoke"
+          },
+          {
+            "line": 13,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2811188100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 708084400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 633779500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1104619700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter email\"jalpa@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jalpa@gmail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepdefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126891500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter password \"Jbcgfb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jbcgfb",
+                  "offset": 18
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1173030600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40744700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should see the error message \"Login was unsuccessful.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful.",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepdefs.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Sanity"
+          },
+          {
+            "line": 23,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2978075200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 708032200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1260070500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1138750500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter email\"bty@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bty@yahoo.com",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepdefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1121644200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter password \"y203\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "y203",
+                  "offset": 18
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1143162000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39127100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should see the error message \"Login was unsuccessful.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful.",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepdefs.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Sanity"
+          },
+          {
+            "line": 23,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3109583000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 795314700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 118700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1222593800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1139903900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter email\"abc@ymail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@ymail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepdefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1124719800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter password \"10a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10a",
+                  "offset": 18
+                }
+              ],
+              "location": "RegistrationStepdefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 529166400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62133900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should see the error message \"Login was unsuccessful.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful.",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStepdefs.iShouldSeeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Sanity"
+          },
+          {
+            "line": 23,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As a user I want to login into nop commerce website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featureFile/2login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2091908400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be able to navigate to computer page successfully",
+        "description": "",
+        "id": "computer-test;user-should-be-able-to-navigate-to-computer-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 745469400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2252750100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on computers tab",
+            "match": {
+              "location": "ComputersStepdefs.iClickOnComputersTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to navigate to computers page successfully",
+            "match": {
+              "location": "ComputersStepdefs.iShouldBeAbleToNavigateToComputersPageSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57686900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should able to see \"Computers\" as title on computers page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 22
+                }
+              ],
+              "location": "ComputersStepdefs.iShouldAbleToSeeAsTitleOnComputersPage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2158832100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should be able to  navigate to desktop page successfully",
+        "description": "",
+        "id": "computer-test;user-should-be-able-to--navigate-to-desktop-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 788016900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203234000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I mouse hover on computers tab",
+            "match": {
+              "location": "ComputersStepdefs.iMouseHoverOnComputersTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1735786600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I mouse hover and click on \"Desktops\" from computers drop down menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 28
+                }
+              ],
+              "location": "ComputersStepdefs.iMouseHoverAndClickOnFromComputersDropDownMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should be able to navigate to Desktops page successfully",
+            "match": {
+              "location": "ComputersStepdefs.iShouldBeAbleToNavigateToDesktopsPageSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55986900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be able to see \"Desktops\" as title on Desktops page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 25
+                }
+              ],
+              "location": "ComputersStepdefs.iShouldBeAbleToSeeAsTitleOnDesktopsPage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Smoke"
+          },
+          {
+            "line": 12,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2859592900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User should be able to  navigate to Notebooks page successfully",
+        "description": "",
+        "id": "computer-test;user-should-be-able-to--navigate-to-notebooks-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 707117500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188322500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I mouse hover on computers tab",
+            "match": {
+              "location": "ComputersStepdefs.iMouseHoverOnComputersTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2534505400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I mouse hover and click on \"Notebooks\" from computers drop down menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Notebooks",
+                  "offset": 28
+                }
+              ],
+              "location": "ComputersStepdefs.iMouseHoverAndClickOnFromComputersDropDownMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should be able to navigate to Notebooks page successfully",
+            "match": {
+              "location": "ComputersStepdefs.iShouldBeAbleToNavigateToNotebooksPageSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42737400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should be able to see \"Notebooks\" as title on Notebooks page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Notebooks",
+                  "offset": 25
+                }
+              ],
+              "location": "ComputersStepdefs.iShouldBeAbleToSeeAsTitleOnNotebooksPage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@Sanity"
+          },
+          {
+            "line": 20,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2094660800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User should be able to  navigate to Software page successfully",
+        "description": "",
+        "id": "computer-test;user-should-be-able-to--navigate-to-software-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 715810800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I am on homepage",
+            "match": {
+              "location": "RegistrationStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 218848800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I mouse hover on computers tab",
+            "match": {
+              "location": "ComputersStepdefs.iMouseHoverOnComputersTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2331215800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I mouse hover and click on \"Software\" from computers drop down menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Software",
+                  "offset": 28
+                }
+              ],
+              "location": "ComputersStepdefs.iMouseHoverAndClickOnFromComputersDropDownMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should be able to navigate to Software page successfully",
+            "match": {
+              "location": "ComputersStepdefs.iShouldBeAbleToNavigateToSoftwarePageSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47379700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should be able to see \"Software\" as title on Software page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Software",
+                  "offset": 25
+                }
+              ],
+              "location": "ComputersStepdefs.iShouldBeAbleToSeeAsTitleOnSoftwarePage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Test",
+    "description": "\r\nAs a user I want to navigate to computer page and its all related products page on nopcommerce website",
+    "id": "computer-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featureFile/3computer.feature"
+  }
+]

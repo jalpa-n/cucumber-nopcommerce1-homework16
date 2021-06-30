@@ -1,0 +1,205 @@
+2021-06-30 09:06:815 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 09:06:755 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 09:06:618 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 09:06:56 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 09:06:638 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (c8a2b87cbf5e5559c2f3d571fe652358)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 09:06:777 INFO  RegisterPage :48 - Entering first name :  to email field : [[ChromeDriver: chrome on WINDOWS (c8a2b87cbf5e5559c2f3d571fe652358)] -> xpath: //input[@id='FirstName']]
+2021-06-30 09:06:878 INFO  RegisterPage :54 - Entering last name : Patel to last name field : [[ChromeDriver: chrome on WINDOWS (c8a2b87cbf5e5559c2f3d571fe652358)] -> xpath: //input[@id='LastName']]
+2021-06-30 09:06:996 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (c8a2b87cbf5e5559c2f3d571fe652358)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (c8a2b87cbf5e5559c2f3d571fe652358)] -> xpath: //input[@id='Email']]
+2021-06-30 09:06:123 INFO  RegisterPage :66 - Entering password : abc1234 to password field : [[ChromeDriver: chrome on WINDOWS (c8a2b87cbf5e5559c2f3d571fe652358)] -> xpath: //input[@id='Password']]
+2021-06-30 09:06:207 INFO  RegisterPage :72 - Entering confirm password : abc1234 to confirm password field : [[ChromeDriver: chrome on WINDOWS (c8a2b87cbf5e5559c2f3d571fe652358)] -> xpath: //input[@id='ConfirmPassword']]
+2021-06-30 09:06:273 INFO  RegisterPage :78 - Clicking on register button [[ChromeDriver: chrome on WINDOWS (c8a2b87cbf5e5559c2f3d571fe652358)] -> xpath: //button[@id='register-button']]
+2021-06-30 09:06:290 INFO  RegisterPage :84 - Getting empty mandatory field error message [[ChromeDriver: chrome on WINDOWS (c8a2b87cbf5e5559c2f3d571fe652358)] -> xpath: //span[@id='FirstName-error']]
+2021-06-30 09:06:983 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 09:06:971 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (0ab0071e6eddce2fd48b8adf552102fc)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 09:06:87 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (0ab0071e6eddce2fd48b8adf552102fc)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (0ab0071e6eddce2fd48b8adf552102fc)] -> xpath: //input[@id='Email']]
+2021-06-30 09:06:188 INFO  RegisterPage :66 - Entering password : abc1234 to password field : [[ChromeDriver: chrome on WINDOWS (0ab0071e6eddce2fd48b8adf552102fc)] -> xpath: //input[@id='Password']]
+2021-06-30 09:06:218 INFO  LoginPage :49 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (0ab0071e6eddce2fd48b8adf552102fc)] -> xpath: //button[contains(text(),'Log in')]]
+2021-06-30 09:06:297 INFO  LoginPage :54 - Page Navigation with welcome Text from element Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Log out')]'
+2021-06-30 17:06:509 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:987 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (3260f6894765e47bf202f10872514cac)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 17:06:29 INFO  RegisterPage :41 - Navigate to register page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (3260f6894765e47bf202f10872514cac)] -> xpath: //h1[contains(text(),'Register')]]
+2021-06-30 17:06:840 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:211 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (e39d65a69e66b2078c68092e7216274c)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 17:06:353 INFO  RegisterPage :48 - Entering first name : Dipak to email field : [[ChromeDriver: chrome on WINDOWS (e39d65a69e66b2078c68092e7216274c)] -> xpath: //input[@id='FirstName']]
+2021-06-30 17:06:477 INFO  RegisterPage :54 - Entering last name : Patel to last name field : [[ChromeDriver: chrome on WINDOWS (e39d65a69e66b2078c68092e7216274c)] -> xpath: //input[@id='LastName']]
+2021-06-30 17:06:632 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (e39d65a69e66b2078c68092e7216274c)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (e39d65a69e66b2078c68092e7216274c)] -> xpath: //input[@id='Email']]
+2021-06-30 17:06:731 INFO  RegisterPage :66 - Entering password : abc1234 to password field : [[ChromeDriver: chrome on WINDOWS (e39d65a69e66b2078c68092e7216274c)] -> xpath: //input[@id='Password']]
+2021-06-30 17:06:831 INFO  RegisterPage :72 - Entering confirm password : abc1234 to confirm password field : [[ChromeDriver: chrome on WINDOWS (e39d65a69e66b2078c68092e7216274c)] -> xpath: //input[@id='ConfirmPassword']]
+2021-06-30 17:06:845 INFO  RegisterPage :78 - Clicking on register button Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='register-button']'
+2021-06-30 17:06:861 INFO  RegisterPage :91 - Getting registration completed message [[ChromeDriver: chrome on WINDOWS (e39d65a69e66b2078c68092e7216274c)] -> xpath: //div[contains(text(),'Your registration completed')]]
+2021-06-30 17:06:637 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:49 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (76a4ea1b3cdfe1c2c9601dfac57a978e)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 17:06:81 INFO  LoginPage :30 - Navigate to register page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (76a4ea1b3cdfe1c2c9601dfac57a978e)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]
+2021-06-30 17:06:889 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:463 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (cad645c7990d03e15f7b84ce075a273e)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 17:06:587 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (cad645c7990d03e15f7b84ce075a273e)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (cad645c7990d03e15f7b84ce075a273e)] -> xpath: //input[@id='Email']]
+2021-06-30 17:06:698 INFO  RegisterPage :66 - Entering password : abc1234 to password field : [[ChromeDriver: chrome on WINDOWS (cad645c7990d03e15f7b84ce075a273e)] -> xpath: //input[@id='Password']]
+2021-06-30 17:06:844 INFO  LoginPage :49 - Clicking on login button Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Log in')]'
+2021-06-30 17:06:868 INFO  LoginPage :54 - Page Navigation with welcome Text from element [[ChromeDriver: chrome on WINDOWS (cad645c7990d03e15f7b84ce075a273e)] -> xpath: //a[contains(text(),'Log out')]]
+2021-06-30 17:06:699 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:219 INFO  HomePage :46 - Clicking on computer tab element [[ChromeDriver: chrome on WINDOWS (b5a4524f4279970d19fb0445c40ad949)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 17:06:246 INFO  ComputerPage :17 - Navigate to computer page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (b5a4524f4279970d19fb0445c40ad949)] -> xpath: //h1[contains(text(),'Computers')]]
+2021-06-30 17:06:09 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:135 INFO  HomePage :40 - Mouse hover on computer tab element [[ChromeDriver: chrome on WINDOWS (609a6fde6c44869f5f2efdc95e5509ea)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 17:06:169 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (609a6fde6c44869f5f2efdc95e5509ea)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 17:06:542 INFO  HomePage :60 - Clicking computer sub menu product element [[ChromeDriver: chrome on WINDOWS (609a6fde6c44869f5f2efdc95e5509ea)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 17:06:568 INFO  ComputerPage :18 - Navigate to desktop page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (609a6fde6c44869f5f2efdc95e5509ea)] -> xpath: //h1[contains(text(),'Desktops')]]
+2021-06-30 17:06:316 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:777 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (6aaa60cbf07bf1d51bc5865ef6d3c605)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 17:06:837 INFO  RegisterPage :41 - Navigate to register page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (6aaa60cbf07bf1d51bc5865ef6d3c605)] -> xpath: //h1[contains(text(),'Register')]]
+2021-06-30 17:06:611 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:996 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (6c4455739829cd1a5396dc39bd42249c)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 17:06:133 INFO  RegisterPage :48 - Entering first name : Jalpa to email field : [[ChromeDriver: chrome on WINDOWS (6c4455739829cd1a5396dc39bd42249c)] -> xpath: //input[@id='FirstName']]
+2021-06-30 17:06:261 INFO  RegisterPage :54 - Entering last name : Ganatra to last name field : [[ChromeDriver: chrome on WINDOWS (6c4455739829cd1a5396dc39bd42249c)] -> xpath: //input[@id='LastName']]
+2021-06-30 17:06:424 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (6c4455739829cd1a5396dc39bd42249c)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (6c4455739829cd1a5396dc39bd42249c)] -> xpath: //input[@id='Email']]
+2021-06-30 17:06:538 INFO  RegisterPage :66 - Entering password : J12345678 to password field : [[ChromeDriver: chrome on WINDOWS (6c4455739829cd1a5396dc39bd42249c)] -> xpath: //input[@id='Password']]
+2021-06-30 17:06:664 INFO  RegisterPage :72 - Entering confirm password : J12345678 to confirm password field : [[ChromeDriver: chrome on WINDOWS (6c4455739829cd1a5396dc39bd42249c)] -> xpath: //input[@id='ConfirmPassword']]
+2021-06-30 17:06:768 INFO  RegisterPage :78 - Clicking on register button Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='register-button']'
+2021-06-30 17:06:784 INFO  RegisterPage :91 - Getting registration completed message [[ChromeDriver: chrome on WINDOWS (6c4455739829cd1a5396dc39bd42249c)] -> xpath: //div[contains(text(),'Your registration completed')]]
+2021-06-30 17:06:545 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:534 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (957c98c4215e31fb807b328bc7d75fe2)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 17:06:575 INFO  LoginPage :30 - Navigate to register page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (957c98c4215e31fb807b328bc7d75fe2)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]
+2021-06-30 17:06:375 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:403 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (11ee7bac7f34711a9513e60bd1dca6af)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 17:06:546 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (11ee7bac7f34711a9513e60bd1dca6af)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (11ee7bac7f34711a9513e60bd1dca6af)] -> xpath: //input[@id='Email']]
+2021-06-30 17:06:672 INFO  RegisterPage :66 - Entering password : abc1234 to password field : [[ChromeDriver: chrome on WINDOWS (11ee7bac7f34711a9513e60bd1dca6af)] -> xpath: //input[@id='Password']]
+2021-06-30 17:06:791 INFO  LoginPage :49 - Clicking on login button Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Log in')]'
+2021-06-30 17:06:810 INFO  LoginPage :54 - Page Navigation with welcome Text from element [[ChromeDriver: chrome on WINDOWS (11ee7bac7f34711a9513e60bd1dca6af)] -> xpath: //a[contains(text(),'Log out')]]
+2021-06-30 17:06:599 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:618 INFO  HomePage :46 - Clicking on computer tab element [[ChromeDriver: chrome on WINDOWS (de92633edd472444487506fe47514d68)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 17:06:643 INFO  ComputerPage :17 - Navigate to computer page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (de92633edd472444487506fe47514d68)] -> xpath: //h1[contains(text(),'Computers')]]
+2021-06-30 17:06:414 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 17:06:522 INFO  HomePage :40 - Mouse hover on computer tab element [[ChromeDriver: chrome on WINDOWS (c64c9557a6d90aecb95d83e0f15ad92c)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 17:06:547 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (c64c9557a6d90aecb95d83e0f15ad92c)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 17:06:254 INFO  HomePage :60 - Clicking computer sub menu product element [[ChromeDriver: chrome on WINDOWS (c64c9557a6d90aecb95d83e0f15ad92c)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 17:06:278 INFO  ComputerPage :18 - Navigate to desktop page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (c64c9557a6d90aecb95d83e0f15ad92c)] -> xpath: //h1[contains(text(),'Desktops')]]
+2021-06-30 18:06:599 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:359 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (30fb80bd77ce0ccd2b13ed0d7e89e13e)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 18:06:401 INFO  RegisterPage :41 - Navigate to register page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (30fb80bd77ce0ccd2b13ed0d7e89e13e)] -> xpath: //h1[contains(text(),'Register')]]
+2021-06-30 18:06:187 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:402 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (1187e2fca826b548591f8c9e31d84139)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 18:06:528 INFO  RegisterPage :48 - Entering first name : Jalpa to email field : [[ChromeDriver: chrome on WINDOWS (1187e2fca826b548591f8c9e31d84139)] -> xpath: //input[@id='FirstName']]
+2021-06-30 18:06:670 INFO  RegisterPage :54 - Entering last name : Ganatra to last name field : [[ChromeDriver: chrome on WINDOWS (1187e2fca826b548591f8c9e31d84139)] -> xpath: //input[@id='LastName']]
+2021-06-30 18:06:835 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (1187e2fca826b548591f8c9e31d84139)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (1187e2fca826b548591f8c9e31d84139)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:961 INFO  RegisterPage :66 - Entering password : J12345678 to password field : [[ChromeDriver: chrome on WINDOWS (1187e2fca826b548591f8c9e31d84139)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:95 INFO  RegisterPage :72 - Entering confirm password : J12345678 to confirm password field : [[ChromeDriver: chrome on WINDOWS (1187e2fca826b548591f8c9e31d84139)] -> xpath: //input[@id='ConfirmPassword']]
+2021-06-30 18:06:271 INFO  RegisterPage :78 - Clicking on register button [[ChromeDriver: chrome on WINDOWS (1187e2fca826b548591f8c9e31d84139)] -> xpath: //button[@id='register-button']]
+2021-06-30 18:06:366 INFO  RegisterPage :91 - Getting registration completed message Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'Your registration completed')]'
+2021-06-30 18:06:373 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:954 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (12d4fdeb61c9df5043f80f6d58dfede2)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:974 INFO  LoginPage :30 - Navigate to register page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (12d4fdeb61c9df5043f80f6d58dfede2)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]
+2021-06-30 18:06:816 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:931 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (e29952fbe4b62db602ceb9337597efc1)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:98 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (e29952fbe4b62db602ceb9337597efc1)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (e29952fbe4b62db602ceb9337597efc1)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:238 INFO  RegisterPage :66 - Entering password : J12345678 to password field : [[ChromeDriver: chrome on WINDOWS (e29952fbe4b62db602ceb9337597efc1)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:350 INFO  LoginPage :49 - Clicking on login button Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Log in')]'
+2021-06-30 18:06:368 INFO  LoginPage :54 - Page Navigation with welcome Text from element [[ChromeDriver: chrome on WINDOWS (e29952fbe4b62db602ceb9337597efc1)] -> xpath: //a[contains(text(),'Log out')]]
+2021-06-30 18:06:119 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:240 INFO  HomePage :46 - Clicking on computer tab element [[ChromeDriver: chrome on WINDOWS (588e438714c603bfd159139985c97b01)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 18:06:277 INFO  ComputerPage :17 - Navigate to computer page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (588e438714c603bfd159139985c97b01)] -> xpath: //h1[contains(text(),'Computers')]]
+2021-06-30 18:06:90 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:148 INFO  HomePage :40 - Mouse hover on computer tab element [[ChromeDriver: chrome on WINDOWS (a7f3fd6363aad41502829cf716907bee)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 18:06:171 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (a7f3fd6363aad41502829cf716907bee)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:479 INFO  HomePage :60 - Clicking computer sub menu product element [[ChromeDriver: chrome on WINDOWS (a7f3fd6363aad41502829cf716907bee)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:505 INFO  ComputerPage :18 - Navigate to desktop page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (a7f3fd6363aad41502829cf716907bee)] -> xpath: //h1[contains(text(),'Desktops')]]
+2021-06-30 18:06:311 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:915 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (fcefcd97110ebf3a5dd389997a539199)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 18:06:62 INFO  RegisterPage :48 - Entering first name :  to email field : [[ChromeDriver: chrome on WINDOWS (fcefcd97110ebf3a5dd389997a539199)] -> xpath: //input[@id='FirstName']]
+2021-06-30 18:06:217 INFO  RegisterPage :54 - Entering last name : Ganatra to last name field : [[ChromeDriver: chrome on WINDOWS (fcefcd97110ebf3a5dd389997a539199)] -> xpath: //input[@id='LastName']]
+2021-06-30 18:06:386 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (fcefcd97110ebf3a5dd389997a539199)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (fcefcd97110ebf3a5dd389997a539199)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:538 INFO  RegisterPage :66 - Entering password : J12345678 to password field : [[ChromeDriver: chrome on WINDOWS (fcefcd97110ebf3a5dd389997a539199)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:671 INFO  RegisterPage :72 - Entering confirm password : J12345678 to confirm password field : [[ChromeDriver: chrome on WINDOWS (fcefcd97110ebf3a5dd389997a539199)] -> xpath: //input[@id='ConfirmPassword']]
+2021-06-30 18:06:806 INFO  RegisterPage :78 - Clicking on register button [[ChromeDriver: chrome on WINDOWS (fcefcd97110ebf3a5dd389997a539199)] -> xpath: //button[@id='register-button']]
+2021-06-30 18:06:830 INFO  RegisterPage :84 - Getting empty mandatory field error message [[ChromeDriver: chrome on WINDOWS (fcefcd97110ebf3a5dd389997a539199)] -> xpath: //span[@id='FirstName-error']]
+2021-06-30 18:06:626 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:42 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (708fdf54fb07e840cb1e21d0bacb7822)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:155 INFO  LoginPage :37 - Entering email address : jalpa@gmail.com to email field : [[ChromeDriver: chrome on WINDOWS (708fdf54fb07e840cb1e21d0bacb7822)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:284 INFO  RegisterPage :66 - Entering password : Jbcgfb to password field : [[ChromeDriver: chrome on WINDOWS (708fdf54fb07e840cb1e21d0bacb7822)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:841 INFO  LoginPage :49 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (708fdf54fb07e840cb1e21d0bacb7822)] -> xpath: //button[contains(text(),'Log in')]]
+2021-06-30 18:06:868 INFO  LoginPage :60 - Getting invalid credentials error message [[ChromeDriver: chrome on WINDOWS (708fdf54fb07e840cb1e21d0bacb7822)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2021-06-30 18:06:642 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:401 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (ec8c521500f63c0eaf2decdb5b1525a5)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:525 INFO  LoginPage :37 - Entering email address : bty@yahoo.com to email field : [[ChromeDriver: chrome on WINDOWS (ec8c521500f63c0eaf2decdb5b1525a5)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:671 INFO  RegisterPage :66 - Entering password : y203 to password field : [[ChromeDriver: chrome on WINDOWS (ec8c521500f63c0eaf2decdb5b1525a5)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:740 INFO  LoginPage :49 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (ec8c521500f63c0eaf2decdb5b1525a5)] -> xpath: //button[contains(text(),'Log in')]]
+2021-06-30 18:06:773 INFO  LoginPage :60 - Getting invalid credentials error message [[ChromeDriver: chrome on WINDOWS (ec8c521500f63c0eaf2decdb5b1525a5)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2021-06-30 18:06:547 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:537 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (f067075bb8ef96dc4f9f19182f12c737)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:649 INFO  LoginPage :37 - Entering email address : abc@ymail.com to email field : [[ChromeDriver: chrome on WINDOWS (f067075bb8ef96dc4f9f19182f12c737)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:761 INFO  RegisterPage :66 - Entering password : 10a to password field : [[ChromeDriver: chrome on WINDOWS (f067075bb8ef96dc4f9f19182f12c737)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:894 INFO  LoginPage :49 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (f067075bb8ef96dc4f9f19182f12c737)] -> xpath: //button[contains(text(),'Log in')]]
+2021-06-30 18:06:906 INFO  LoginPage :60 - Getting invalid credentials error message [[ChromeDriver: chrome on WINDOWS (f067075bb8ef96dc4f9f19182f12c737)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2021-06-30 18:06:740 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:979 INFO  HomePage :40 - Mouse hover on computer tab element [[ChromeDriver: chrome on WINDOWS (71d425ddab68bf961a06560a8ed87769)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 18:06:14 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (71d425ddab68bf961a06560a8ed87769)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:29 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (71d425ddab68bf961a06560a8ed87769)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:539 INFO  HomePage :60 - Clicking computer sub menu product element [[ChromeDriver: chrome on WINDOWS (71d425ddab68bf961a06560a8ed87769)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:567 INFO  ComputerPage :18 - Navigate to notebooks page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (71d425ddab68bf961a06560a8ed87769)] -> xpath: //h1[contains(text(),'Notebooks')]]
+2021-06-30 18:06:518 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:33 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (ffef8c14bba8a51b8caf70eba966832e)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 18:06:189 INFO  RegisterPage :48 - Entering first name : Jalpa to email field : [[ChromeDriver: chrome on WINDOWS (ffef8c14bba8a51b8caf70eba966832e)] -> xpath: //input[@id='FirstName']]
+2021-06-30 18:06:352 INFO  RegisterPage :54 - Entering last name : Ganatra to last name field : [[ChromeDriver: chrome on WINDOWS (ffef8c14bba8a51b8caf70eba966832e)] -> xpath: //input[@id='LastName']]
+2021-06-30 18:06:534 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (ffef8c14bba8a51b8caf70eba966832e)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (ffef8c14bba8a51b8caf70eba966832e)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:707 INFO  RegisterPage :66 - Entering password : J12345678 to password field : [[ChromeDriver: chrome on WINDOWS (ffef8c14bba8a51b8caf70eba966832e)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:861 INFO  RegisterPage :72 - Entering confirm password : J12345678 to confirm password field : [[ChromeDriver: chrome on WINDOWS (ffef8c14bba8a51b8caf70eba966832e)] -> xpath: //input[@id='ConfirmPassword']]
+2021-06-30 18:06:373 INFO  RegisterPage :78 - Clicking on register button [[ChromeDriver: chrome on WINDOWS (ffef8c14bba8a51b8caf70eba966832e)] -> xpath: //button[@id='register-button']]
+2021-06-30 18:06:445 INFO  RegisterPage :91 - Getting registration completed message Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'Your registration completed')]'
+2021-06-30 18:06:495 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:768 INFO  HomePage :35 - Clicking on register tab element [[ChromeDriver: chrome on WINDOWS (e4215e7d57af70084d538101f3f3e8ca)] -> xpath: //a[contains(text(),'Register')]]
+2021-06-30 18:06:881 INFO  RegisterPage :48 - Entering first name :  to email field : [[ChromeDriver: chrome on WINDOWS (e4215e7d57af70084d538101f3f3e8ca)] -> xpath: //input[@id='FirstName']]
+2021-06-30 18:06:02 INFO  RegisterPage :54 - Entering last name : Ganatra to last name field : [[ChromeDriver: chrome on WINDOWS (e4215e7d57af70084d538101f3f3e8ca)] -> xpath: //input[@id='LastName']]
+2021-06-30 18:06:190 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (e4215e7d57af70084d538101f3f3e8ca)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (e4215e7d57af70084d538101f3f3e8ca)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:320 INFO  RegisterPage :66 - Entering password : J12345678 to password field : [[ChromeDriver: chrome on WINDOWS (e4215e7d57af70084d538101f3f3e8ca)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:424 INFO  RegisterPage :72 - Entering confirm password : J12345678 to confirm password field : [[ChromeDriver: chrome on WINDOWS (e4215e7d57af70084d538101f3f3e8ca)] -> xpath: //input[@id='ConfirmPassword']]
+2021-06-30 18:06:519 INFO  RegisterPage :78 - Clicking on register button [[ChromeDriver: chrome on WINDOWS (e4215e7d57af70084d538101f3f3e8ca)] -> xpath: //button[@id='register-button']]
+2021-06-30 18:06:547 INFO  RegisterPage :84 - Getting empty mandatory field error message [[ChromeDriver: chrome on WINDOWS (e4215e7d57af70084d538101f3f3e8ca)] -> xpath: //span[@id='FirstName-error']]
+2021-06-30 18:06:381 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:792 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (d03641e061cbbd9081243b16d5b07f41)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:832 INFO  LoginPage :30 - Navigate to register page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (d03641e061cbbd9081243b16d5b07f41)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]
+2021-06-30 18:06:590 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:98 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (4885095110369beedfda5b8c296a7b25)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:245 INFO  RegisterPage :60 - Entering email address : [[ChromeDriver: chrome on WINDOWS (4885095110369beedfda5b8c296a7b25)] -> xpath: //input[@id='Email']] to email field : [[ChromeDriver: chrome on WINDOWS (4885095110369beedfda5b8c296a7b25)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:364 INFO  RegisterPage :66 - Entering password : J12345678 to password field : [[ChromeDriver: chrome on WINDOWS (4885095110369beedfda5b8c296a7b25)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:595 INFO  LoginPage :49 - Clicking on login button Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Log in')]'
+2021-06-30 18:06:624 INFO  LoginPage :54 - Page Navigation with welcome Text from element [[ChromeDriver: chrome on WINDOWS (4885095110369beedfda5b8c296a7b25)] -> xpath: //a[contains(text(),'Log out')]]
+2021-06-30 18:06:385 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:838 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (d10f1b808cecf8deb86417c9bce4dddd)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:943 INFO  LoginPage :37 - Entering email address : jalpa@gmail.com to email field : [[ChromeDriver: chrome on WINDOWS (d10f1b808cecf8deb86417c9bce4dddd)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:71 INFO  RegisterPage :66 - Entering password : Jbcgfb to password field : [[ChromeDriver: chrome on WINDOWS (d10f1b808cecf8deb86417c9bce4dddd)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:244 INFO  LoginPage :49 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (d10f1b808cecf8deb86417c9bce4dddd)] -> xpath: //button[contains(text(),'Log in')]]
+2021-06-30 18:06:268 INFO  LoginPage :60 - Getting invalid credentials error message [[ChromeDriver: chrome on WINDOWS (d10f1b808cecf8deb86417c9bce4dddd)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2021-06-30 18:06:01 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:240 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (71ab67a6642e3bdccfcfcca3ef8a6f5c)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:386 INFO  LoginPage :37 - Entering email address : bty@yahoo.com to email field : [[ChromeDriver: chrome on WINDOWS (71ab67a6642e3bdccfcfcca3ef8a6f5c)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:507 INFO  RegisterPage :66 - Entering password : y203 to password field : [[ChromeDriver: chrome on WINDOWS (71ab67a6642e3bdccfcfcca3ef8a6f5c)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:652 INFO  LoginPage :49 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (71ab67a6642e3bdccfcfcca3ef8a6f5c)] -> xpath: //button[contains(text(),'Log in')]]
+2021-06-30 18:06:670 INFO  LoginPage :60 - Getting invalid credentials error message [[ChromeDriver: chrome on WINDOWS (71ab67a6642e3bdccfcfcca3ef8a6f5c)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2021-06-30 18:06:414 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:734 INFO  HomePage :29 - Clicking on login tab element [[ChromeDriver: chrome on WINDOWS (62b2349da607e6e7d705140021d070d8)] -> xpath: //a[contains(text(),'Log in')]]
+2021-06-30 18:06:875 INFO  LoginPage :37 - Entering email address : abc@ymail.com to email field : [[ChromeDriver: chrome on WINDOWS (62b2349da607e6e7d705140021d070d8)] -> xpath: //input[@id='Email']]
+2021-06-30 18:06:03 INFO  RegisterPage :66 - Entering password : 10a to password field : [[ChromeDriver: chrome on WINDOWS (62b2349da607e6e7d705140021d070d8)] -> xpath: //input[@id='Password']]
+2021-06-30 18:06:531 INFO  LoginPage :49 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (62b2349da607e6e7d705140021d070d8)] -> xpath: //button[contains(text(),'Log in')]]
+2021-06-30 18:06:557 INFO  LoginPage :60 - Getting invalid credentials error message [[ChromeDriver: chrome on WINDOWS (62b2349da607e6e7d705140021d070d8)] -> xpath: //div[@class='message-error validation-summary-errors']]
+2021-06-30 18:06:397 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:738 INFO  HomePage :46 - Clicking on computer tab element [[ChromeDriver: chrome on WINDOWS (a2430aa019f96db723779201be61ce56)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 18:06:771 INFO  ComputerPage :17 - Navigate to computer page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (a2430aa019f96db723779201be61ce56)] -> xpath: //h1[contains(text(),'Computers')]]
+2021-06-30 18:06:555 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:918 INFO  HomePage :40 - Mouse hover on computer tab element [[ChromeDriver: chrome on WINDOWS (e7741722b326c228220942e782474c8b)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 18:06:957 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (e7741722b326c228220942e782474c8b)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:657 INFO  HomePage :60 - Clicking computer sub menu product element [[ChromeDriver: chrome on WINDOWS (e7741722b326c228220942e782474c8b)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:685 INFO  ComputerPage :18 - Navigate to desktop page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (e7741722b326c228220942e782474c8b)] -> xpath: //h1[contains(text(),'Desktops')]]
+2021-06-30 18:06:510 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:560 INFO  HomePage :40 - Mouse hover on computer tab element [[ChromeDriver: chrome on WINDOWS (7b1ac832ad20bcde988c5ae7c6d73191)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 18:06:588 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (7b1ac832ad20bcde988c5ae7c6d73191)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:596 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (7b1ac832ad20bcde988c5ae7c6d73191)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:97 INFO  HomePage :60 - Clicking computer sub menu product element [[ChromeDriver: chrome on WINDOWS (7b1ac832ad20bcde988c5ae7c6d73191)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:119 INFO  ComputerPage :18 - Navigate to notebooks page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (7b1ac832ad20bcde988c5ae7c6d73191)] -> xpath: //h1[contains(text(),'Notebooks')]]
+2021-06-30 18:06:853 INFO  BasePage :29 - Launching Chrome Browser 
+2021-06-30 18:06:171 INFO  HomePage :40 - Mouse hover on computer tab element [[ChromeDriver: chrome on WINDOWS (50615b2e062ff4ed5237597973bba7f8)] -> xpath: (//a[@href='/computers'])[1]]
+2021-06-30 18:06:191 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (50615b2e062ff4ed5237597973bba7f8)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:202 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (50615b2e062ff4ed5237597973bba7f8)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:218 INFO  HomePage :56 - Getting text from computer sub product element [[ChromeDriver: chrome on WINDOWS (50615b2e062ff4ed5237597973bba7f8)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:503 INFO  HomePage :60 - Clicking computer sub menu product element [[ChromeDriver: chrome on WINDOWS (50615b2e062ff4ed5237597973bba7f8)] -> xpath: (//ul[@class='sublist first-level'])[1]//li]
+2021-06-30 18:06:530 INFO  ComputerPage :18 - Navigate to desktop page and verify navigated page welcome text [[ChromeDriver: chrome on WINDOWS (50615b2e062ff4ed5237597973bba7f8)] -> xpath: //h1[contains(text(),'Software')]]
+2021-06-30 18:06:07 INFO  BasePage :29 - Launching Chrome Browser 
